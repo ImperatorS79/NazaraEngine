@@ -6,7 +6,7 @@ jobs:
     osx_image: xcode12u
 
 install:
-  - brew update && brew upgrade freetype && brew install wget gnu-tar openal-soft assimp libsndfile sdl2;
+  - brew update && brew install gnu-tar openal-soft assimp libsndfile sdl2;
 
 script:
   - cd build;
